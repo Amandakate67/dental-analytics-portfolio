@@ -1,72 +1,93 @@
-# Dental Analytics Portfolio
-### Amanda Thurman | Healthcare Data Analyst
+# Dental & Energy Analytics Portfolio
+**Amanda Thurman | Healthcare & Energy Data Analyst**
 
-16+ years as a dental hygienist transitioning into 
-healthcare analytics. This portfolio contains SQL 
-projects built from real clinical experience in 
-dental compliance, treatment analytics, revenue 
-cycle data, and multi-location DSO operations.
+16+ years as a dental hygienist transitioning into data analytics. 
+This portfolio contains SQL projects built from real clinical and 
+land data experience — dental operations, revenue cycle, DSO 
+compliance, and oil & gas title work.
+
+---
 
 ## Projects
 
 ### 1. DSO Analytics — Compliance Testing
-Multi-location dental DSO database tracking providers,
-patients, treatments, locations, and compliance testing.
-Built from scratch including schema design, data insertion,
-and analytical queries covering failure rate analysis,
-location risk classification, and compliance status flagging.
+Multi-location dental DSO database tracking providers, patients, 
+treatments, locations, and compliance testing. Built from scratch 
+including schema design, data insertion, and analytical queries 
+covering failure rate analysis, location risk classification, and 
+compliance status flagging.
 
-Files:
-Files:
-- dso_portfolio_schema.sql — full 12 table schema
-- dso_portfolio_queries.sql — analytical queries
+**Files:**
+- `dso_portfolio_schema.sql` — full 12-table schema
+- `dso_portfolio_queries.sql` — analytical queries
+
+---
 
 ### 2. Treatment Analytics — Decline Reasons
-Three table database connecting providers, patient
-treatments, and decline reasons using a foreign key.
-Built to identify why patients decline treatment by
-procedure type and what providers should do differently
-to improve case acceptance and recover lost production.
+Three-table database connecting providers, patient treatments, and 
+decline reasons using a foreign key. Built to identify why patients 
+decline treatment by procedure type and what providers should do 
+differently to improve case acceptance and recover lost production.
 
-Files:
-- treatment_analytics_schema.sql — full schema, 3 tables
-- treatment_analytics_queries.sql — decline reason analysis
+**Files:**
+- `treatment_analytics_schema.sql` — full schema, 3 tables
+- `treatment_analytics_queries.sql` — decline reason analysis
+
+---
 
 ### 3. Treatment Analytics — DSO Portfolio Database
-Comprehensive 12-table dental analytics database built
-to simulate real DSO operations. Tables cover the full
-patient lifecycle from scheduling through billing and
-collections. Used to practice CTEs, multi-table JOINs,
-CASE WHEN logic, subqueries, and location-level analysis.
+Comprehensive 12-table dental analytics database built to simulate 
+real DSO operations. Tables cover the full patient lifecycle from 
+scheduling through billing and collections. Used to practice CTEs, 
+multi-table JOINs, CASE WHEN logic, subqueries, and location-level 
+analysis.
 
-Tables include: appointments, insurance_claims,
-front_desk_workflow, patient_behavior, recall_list,
-staff_productivity, payments, treatment_notes,
-locations, providers, patient_treatments,
-and decline_reasons.
-
-Key queries built:
+**Key queries built:**
 - No-show rate by location using CTE and CASE WHEN
-- Location production vs practice average using CTE
+- Location production vs practice average using window functions
 - Treatment acceptance vs decline by procedure category
-- Providers above average production using CTE
+- Provider performance scorecard with rank and average comparison
 - Decline reason analysis with recommended actions
 
-Files:
-Files:
-- dso_portfolio_schema.sql — full 12 table schema
-- dso_portfolio_queries.sql — analytical queries
-- sqlserver_queries.sql — SQL Server versions of analytical queries
+**Files:**
+- `dso_portfolio_schema.sql` — full 12-table schema
+- `dso_portfolio_queries.sql` — analytical queries
+- `sqlserver_queries.sql` — SQL Server versions of key queries
+- `treatment_analytics_queries.sql` — additional treatment analysis
+
+---
+
+### 4. Oil & Gas Analytics — Title Document Quality Flag
+SQL Server query built against a simulated oil and gas title 
+documents database. Uses CASE WHEN logic to surface chain of title 
+issues including missing grantors, missing grantees, and defective 
+document status — records that appear filed and complete but contain 
+data quality problems that could cloud ownership.
+
+Built from active contract work as a Land Data Analyst validating 
+and extracting data from legal land documents — including original 
+patents dating to the 1800s. Completed first tract of 110 documents 
+6 weeks ahead of deadline.
+
+**Files:**
+- `title_document_quality_flag.sql` — chain of title quality query
+
+---
 
 ## Skills
-- SQL (SQLite + SQL Server Express, CTEs, subqueries, 
-  JOINs, CASE WHEN, GROUP BY, HAVING, aggregate functions,
-  window functions)
-- Excel (pivot tables, dashboards, compliance tracking)
-- Power BI (in progress — dashboards and visuals)
-- Data visualization
-- Dental compliance and infection control
-- 16+ years clinical dental experience
+- **SQL** — SQL Server Express, CTEs, subqueries, JOINs, CASE WHEN,
+  GROUP BY, HAVING, aggregate functions, window functions
+- **Excel** — pivot tables, dashboards, compliance tracking
+- **Power BI** — dashboards and visuals (in progress)
+- **Industries** — dental operations, DSO analytics, revenue cycle,
+  oil & gas land data
+- **Domain expertise** — 16+ years clinical dental experience
+
+---
 
 ## Connect
 [LinkedIn](https://linkedin.com/in/amandakate67)
+
+*Note: All data in this portfolio is simulated for analytical 
+purposes.*
+
