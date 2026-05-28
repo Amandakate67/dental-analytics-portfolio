@@ -74,6 +74,16 @@ patents dating to the 1800s. Completed first tract of 110 documents
 
 ---
 
+### 5. Revenue Cycle — AR Aging Report
+Identifies pending insurance claims over 30 days old using a CTE,
+DATEDIFF, and CASE WHEN aging buckets (31-60, 61-90, 90+ days).
+Built to surface priority collections for DSO revenue cycle teams.
+
+**File:** `revenue_cycle_ar_aging.sql`
+
+
+---
+
 ## Skills
 - **SQL** — SQL Server Express, CTEs, subqueries, JOINs, CASE WHEN,
   GROUP BY, HAVING, aggregate functions, window functions
